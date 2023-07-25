@@ -16,8 +16,8 @@ pipeline {
                 OPENSHIFT_NAMESPACE = 'granderamirez-6-dev'
                 OPENSHIFT_API_URL = 'https://api.sandbox-m3.1530.p1.openshiftapps.com:6443'
                 OPENSHIFT_TOKEN = 'sha256~1qcyg2e-TekWQxE67c6CWNZ3WEogZItPuKpuM3Mn6QM'
-                APPLICATION_NAME = 'new-app-example'
-                EXISTING_IMAGE_NAME = "image-registry.openshift-image-registry.svc:5000/granderamirez-6-dev/new-app-example"
+                APPLICATION_NAME = 'core-example'
+                EXISTING_IMAGE_NAME = "image-registry.openshift-image-registry.svc:5000/granderamirez-6-dev/core-example-app"
                 BUILD_CONFIG_NAME = 'new-example'
             }
             steps {
