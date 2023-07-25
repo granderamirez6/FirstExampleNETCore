@@ -17,7 +17,7 @@ pipeline {
                 OPENSHIFT_API_URL = 'https://api.sandbox-m3.1530.p1.openshiftapps.com:6443'
                 OPENSHIFT_TOKEN = 'sha256~1qcyg2e-TekWQxE67c6CWNZ3WEogZItPuKpuM3Mn6QM'
                 APPLICATION_NAME = 'new-example'
-                EXISTING_IMAGE_NAME = "image-registry.openshift-image-registry.svc:5000/granderamirez-6-dev/first-example-net-core"
+                EXISTING_IMAGE_NAME = "image-registry.openshift-image-registry.svc:5000/granderamirez-6-dev/new-example"
                 BUILD_CONFIG_NAME = 'new-example'
             }
             steps {
